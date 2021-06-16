@@ -1,0 +1,5 @@
+Get-Module PowerShellGet -list | Select-Object Name,Version,Path
+to check powershell installed or not
+if yes to connect
+Install-Module -Name PowerShellGet -Force
+Exit
